@@ -1,0 +1,159 @@
+* { 
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #E5E7EB;
+}
+
+
+/* This is the navigation bar on top of the page CSS */
+li, a, button {
+  font-family: italic;
+  font-weight:500;
+  font-size:20px;
+  color: #D4AF37;
+  text-decoration:none;
+  padding: 0 20px 0 0px;
+
+}
+
+header{ 
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 70px 5%;
+  height: 20px;
+}
+
+.odin-logo { 
+  height: 120px;
+  width: 120px;
+  cursor: pointer;
+  margin-right: auto;
+}
+
+nav { 
+  order: 1;
+
+}
+
+.nav_links { 
+  list-style: none;
+}
+
+.nav_links li { 
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+  color:aqua;
+}
+
+.cta{ 
+  order: 2;
+}
+
+/* This is golden button CSS */
+
+button { 
+  padding: 9px 30px; 
+  background-color: rgba(95, 97, 77, 0.8);
+  border:none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  margin-left:20px;
+}
+
+button:hover{
+  background-color:beige;
+}
+
+/* This is the container one and the placeholder CSS */
+
+.div-one{ 
+  gap: 100px;
+  align-items: center;
+}
+
+.container-one {
+  flex-direction: column;
+  align-items: center;
+  background-color: #1F2937;
+  display:flex;
+}
+.first-header{ 
+  font-size: 48px;
+  color: #D4AF37;
+  
+}
+
+.first-header-subtext {
+  font-size: 18px;
+  color: #D4AF37;
+}
+
+.future-picture {
+  text-align: center;
+  width: 500px;
+  height: 200px;
+  background-color: gray;
+}
+
+.future-picture p {
+  margin: 90px;
+}
+
+/* This is random item information */
+
+.main-info {
+  height: 500px;
+  padding: 16px;
+  gap: 32px;
+  }
+  
+.boxes { 
+    display: flex;
+    justify-content:center;
+  }
+
+.empty {
+    width: 160px;
+    height: 160px;
+    border: 4px solid #3882F6;
+    background: transparent !important;  /* //force website to background-color: ; */
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
+    border-radius: 1em;    
+    margin: 50px;
+}
+
+/* This is the quote's CSS */
+
+.quote-layer { 
+  height: 450px;
+  background-color: #E5E7EB;
+  }
+
+  .quote{ 
+    margin:0;
+    background-color: #1F2937;
+    padding: 1em;
+    border-radius: 1em;
+    font-size: 36px;
+  }
+
+  .quote figcaption {
+    text-align: right;
+  }
+  .quote blockquote {
+    margin: 1em;
+    text-align: left;
+    font-style: italic;
+  }
