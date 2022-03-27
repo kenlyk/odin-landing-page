@@ -1,0 +1,106 @@
+div {
+    padding: 30px;
+    text-align: center;
+    color: #EEEEEE;
+  }
+  
+  .header{
+    display: flex;
+    background-color: #1f64c4;
+    height: 10px;
+    justify-content: flex-end;
+  }
+
+  nav { 
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .logo { 
+    width: 70px;
+    background-repeat: no-repeat;
+    }
+  .nav-links li {
+    display: inline-block; 
+    padding:  0px 20px
+  }
+  
+  .nav-links li a{ 
+  text-decoration: none;
+  padding: 16px 0 ;
+  font-size: 20px;
+    }
+
+  .second-header {
+    background-color: #1F2937;
+  }
+
+  .main-info {
+  height: 500px;
+  padding: 16px;
+  gap: 32px;
+  }
+  
+  .boxes { 
+    display: flex;
+    justify-content:center;
+  }
+
+  .empty {
+    width: 160px;
+    height: 160px;
+    border: 4px solid #3882F6;
+    background: transparent !important;  /* //force website to background-color: ; */
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    border-radius: 1em;    
+  }
+
+.quote-layer { 
+  height: 450px;
+  background-color: #E5E7EB;
+  }
+
+  .quote{ 
+    margin:0;
+    background-color: #1F2937;
+    padding: 1em;
+    border-radius: 1em;
+    font-size: 36px;
+  }
+
+  .quote figcaption {
+    text-align: right;
+  }
+  .quote blockquote {
+    margin: 1em;
+    text-align: left;
+    font-style: italic;
+  }
+
+ .contact-box { 
+  height: 300px;
+ }
+
+ .inside-contact { 
+  border-radius: 1em;    
+  background-color: #3882F6;
+  width: 1450px;
+  height: 130px;
+  margin:0;
+  text-decoration-color: #E5E7EB;
+ }
+
+.action-button{
+  width: 100px;
+  height: 35px;
+  border: 4px solid rgb(0, 61, 71);
+  background: transparent !important;  /* //force website to background-color: ; */
+  display: inline-block;
+  vertical-align: right;
+  text-align: center;
+  border-radius: 1em; 
+}
+
