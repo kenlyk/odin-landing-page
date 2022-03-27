@@ -76,27 +76,30 @@ button:hover{
 /* This is the container one and the placeholder CSS */
 
 .div-one{ 
-  gap: 100px;
-  align-items: center;
-}
-
-.container-one {
-  /* flex-direction: column;  not sure if should put flex direction bc messed up the format */
   align-items: center;
   background-color: #1F2937;
-  display:flex;
-  padding: 100px;
+  padding:25px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
 }
+
+.div-one div{
+  align-items: center;
+  padding: 20px;
+}
+
 .first-header{ 
   font-size: 48px;
   color: #D4AF37;
-  float: inline-start;
-  
+  font-weight: bold;  
+  display:inline-table;
 }
 
 .first-header-subtext {
   font-size: 18px;
   color: #D4AF37;
+  font-weight: bold;
   text-align: justify;
 }
 
@@ -183,13 +186,14 @@ padding: 21px;
 float:left;
 padding-left:220px;
 margin: 20px;
+padding:0px;
 }
 
 .action-button{
   float: right;
-  padding-right:250px;
+  padding-right:260px;
   margin-right: 1em;
-  margin: 30px;
+  margin: 20px;
 }
 
 .action-layer{
@@ -198,7 +202,7 @@ margin: 20px;
   border-radius: 1em;
   font-size: 24px;
   height: 150px;
-  margin:70px;
+  margin:60px;
 }
 
 footer {
