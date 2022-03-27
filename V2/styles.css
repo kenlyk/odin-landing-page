@@ -2,7 +2,6 @@
   box-sizing:border-box;
   margin: 0;
   padding: 0;
-  background-color: #E5E7EB;
 }
 
 
@@ -82,20 +81,23 @@ button:hover{
 }
 
 .container-one {
-  flex-direction: column;
+  /* flex-direction: column;  not sure if should put flex direction bc messed up the format */
   align-items: center;
   background-color: #1F2937;
   display:flex;
+  padding: 100px;
 }
 .first-header{ 
   font-size: 48px;
   color: #D4AF37;
+  float: inline-start;
   
 }
 
 .first-header-subtext {
   font-size: 18px;
   color: #D4AF37;
+  text-align: justify;
 }
 
 .future-picture {
@@ -103,10 +105,11 @@ button:hover{
   width: 500px;
   height: 200px;
   background-color: gray;
+  padding: 10px;
 }
 
 .future-picture p {
-  margin: 90px;
+  margin: 80px;
 }
 
 /* This is random item information */
@@ -120,18 +123,25 @@ button:hover{
 .boxes { 
     display: flex;
     justify-content:center;
+    gap: 50px;
   }
 
 .empty {
-    width: 160px;
-    height: 160px;
+    width: 180px;
+    height: 180px;
     border: 4px solid #3882F6;
     background: transparent !important;  /* //force website to background-color: ; */
     display: inline-block;
     vertical-align: top;
     text-align: right;
     border-radius: 1em;    
-    margin: 50px;
+    margin: 40px;
+}
+
+.sub-t{
+  font-size: 20px;
+  display: flex;
+  text-align: center
 }
 
 /* This is the quote's CSS */
@@ -139,6 +149,7 @@ button:hover{
 .quote-layer { 
   height: 450px;
   background-color: #E5E7EB;
+  padding: 35px;
   }
 
   .quote{ 
@@ -147,13 +158,52 @@ button:hover{
     padding: 1em;
     border-radius: 1em;
     font-size: 36px;
+    height:300px;
+    margin:40px;
   }
 
   .quote figcaption {
     text-align: right;
+    color: #E5E7EB;
   }
   .quote blockquote {
     margin: 1em;
     text-align: left;
     font-style: italic;
+    color: #E5E7EB;
   }
+
+/* Sign up CSS */
+.action-time { 
+height: 300px;
+padding: 21px;
+}
+
+.action-box{ 
+float:left;
+padding-left:220px;
+margin: 20px;
+}
+
+.action-button{
+  float: right;
+  padding-right:250px;
+  margin-right: 1em;
+  margin: 30px;
+}
+
+.action-layer{
+  background-color: #F5F5DC;
+  padding: 1em;
+  border-radius: 1em;
+  font-size: 24px;
+  height: 150px;
+  margin:70px;
+}
+
+footer {
+  text-align: center;
+  padding: 5px;
+  background-color: #1F2937;
+  color: #F5F5DC;
+}
